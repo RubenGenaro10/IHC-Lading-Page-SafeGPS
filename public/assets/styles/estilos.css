@@ -1,11 +1,76 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 
 
 
 /*Navbar*/
 
 /*Cabecera*/
+section.Cabecera{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 3rem 0;
+}
+.containerC{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 2fr));
+    grid-gap: 2rem;
+}
 
+.col1{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCabecera{
+    width: 80%;
+}
+
+h2{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #515e66;
+}
+
+#txtCabecera{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.btnCabecera{
+    background: #478fa9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
 /*Servicios*/
 
 /*Nosotros */
