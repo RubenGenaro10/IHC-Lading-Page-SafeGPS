@@ -22,14 +22,14 @@ section.Cabecera{
     grid-gap: 2rem;
 }
 
-.col1{
+.CabeceraC1{
     padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.col2{
+.CabeceraC2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@ section.Cabecera{
     width: 80%;
 }
 
-h2{
+#h2Cabecera{
     margin: 0;
     padding: 0;
     font-size: 1rem;
@@ -47,7 +47,7 @@ h2{
     color: #000000;
 }
 
-h1{
+#h1Cabecera{
     margin: 0;
     padding: 0;
     font-size: 3rem;
