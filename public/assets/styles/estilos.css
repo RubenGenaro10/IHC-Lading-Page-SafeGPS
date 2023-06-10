@@ -83,6 +83,55 @@ section.Cabecera{
     text-decoration: none;
 }
 /*Servicios*/
+.services{
+  padding: 3rem 0;
+}
+
+.containerS{
+
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+  grid-gap: 1.2rem;
+}
+
+.boxS{
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 55px rgb(0 0 0 /6%);
+}
+
+.boxS img{
+  width: 100%;
+  align-self: center;
+} 
+
+.boxS h3{
+  text-align: start;
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-size: 28px;
+
+}
+
+.serv{
+  color: rgb(0, 209, 209);
+  text-decoration: underline;
+}
+
+.boxS p{
+
+  text-align: justify;
+  font-size: 20px;
+  color: rgb(128, 128, 128);
+
+}
 
 /*Nosotros */
 
