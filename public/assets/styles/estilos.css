@@ -74,7 +74,7 @@ section.ventajas-section {
   }
   
   /* Media queries */
-  @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 1300px) {
     .ventajas-container {
       flex-wrap: wrap;
       padding: 0 2rem;
@@ -94,7 +94,7 @@ section.ventajas-section {
       height: auto;
       margin-right: 20px;
     }
-  
+    
     .ventaja-grande img {
       display:none;
     }
