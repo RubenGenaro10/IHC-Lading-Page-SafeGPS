@@ -1,6 +1,6 @@
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600;700&display=swap');
 
 /*Navbar*/
 
@@ -9,6 +9,143 @@
 /*Servicios*/
 
 /*Nosotros */
+
+section.ventajas-section {
+    box-sizing: border-box;
+    background-color: #f1f5f6;
+    padding: 3rem 0;
+  }
+  
+  .ventajas-title {
+    padding: 1rem 9rem;
+    width: 100%;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 0.15cm;
+    color: #282828;
+  }
+  
+  .ventajas-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+  }
+  
+  .ventaja {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .ventaja-imagen img {
+    width: 90px;
+    height: auto;
+    margin-right: 30px;
+  }
+  
+  .ventaja-info h3 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .ventaja-info h3:hover {
+    color: #438da7;
+    text-decoration: underline;
+  }
+  
+  .ventaja-info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    color: #c0c9d2;
+    text-align: justify;
+  }
+  
+  .ventaja-grande img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .ventaja-column {
+    flex-basis: 30%;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 1600px) {
+    .ventajas-container {
+      flex-wrap: wrap;
+      padding: 0 2rem;
+    }
+
+    .ventajas-title {
+        font-size: 2.7rem;
+      }
+  
+    .ventaja-column {
+      flex-basis: 100%;
+      padding-left: 80px;
+    }
+  
+    .ventaja-imagen img {
+      width: 70px;
+      height: auto;
+      margin-right: 20px;
+    }
+  
+    .ventaja-grande img {
+      display:none;
+    }
+  
+    .ventaja-info h3 {
+      font-size: 1.5rem;
+    }
+  
+    .ventaja-info p {
+      font-size: 1.5rem;
+      margin-right: 7rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ventajas-container {
+      flex-wrap: wrap;
+      padding: 0 2rem;
+    }
+  
+    .ventaja-column {
+      flex-basis: 100%;
+      padding-left: 30px;
+    }
+  
+    .ventaja-imagen img {
+      width: 80px;
+      height: 80px;
+      margin-right: 20px;
+    }
+  
+    .ventaja-grande img {
+        display: flex;
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .ventajas-title {
+        font-size: 2.4rem;
+      }
+  
+    .ventaja-info h3 {
+      font-size: 1.5rem;
+    }
+  
+    .ventaja-info p {
+      font-size: 1.3rem;
+      margin-right: 4rem;
+    }
+  }
 
 /*Carrucel*/
 
