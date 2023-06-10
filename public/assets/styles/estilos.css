@@ -25,6 +25,15 @@ body{
 
 /*contacto*/
 
+.Contacto{
+    background-color: #d5d5fc;
+opacity: 0.7;
+background-image:  radial-gradient(#4e55d8 1.2000000000000002px, transparent 1.2000000000000002px), radial-gradient(#4e55d8 1.2000000000000002px, #d5d5fc 1.2000000000000002px);
+background-size: 48px 48px;
+background-position: 0 0,24px 24px;
+    padding: 20px;
+}
+
 .form{
     background-color: #e8dddd;
     margin: auto;
