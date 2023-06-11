@@ -18,6 +18,9 @@ body{
   padding: 20px;
   display: flex;
   align-items: flex; 
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 .navbar .imgBanner {
@@ -89,7 +92,10 @@ body{
 /*Cabecera*/
 section.Cabecera{
     margin: 0;
+    position: relative;
+    z-index: 1;
     padding: 0;
+    top:5em;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
