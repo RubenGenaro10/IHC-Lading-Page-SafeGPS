@@ -520,7 +520,7 @@ background-position: 0 0,24px 24px;
 }
 
 
-/*chat gpt*/
+/*Responsive*/
 @media (max-width: 960px) {
   .footer {
     flex-direction: column;
