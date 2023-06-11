@@ -120,17 +120,17 @@ section.Cabecera{
 
 }
 
-.serv{
-  color: rgb(0, 209, 209);
-  text-decoration: underline;
-}
-
 .boxS p{
 
   text-align: justify;
   font-size: 20px;
   color: rgb(128, 128, 128);
+  padding-top: 1em;
+}
 
+.boxS h3:hover {
+color: rgb(0, 209,209);
+text-decoration: underline;
 }
 
 /*Nosotros */
