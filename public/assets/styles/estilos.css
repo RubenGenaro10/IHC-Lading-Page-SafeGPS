@@ -14,16 +14,17 @@ body{
 
 /*Navbar*/
 .navbar {
-  background-color: #b8dce2;
+  background-color: #f2f2f2;
   padding: 20px;
   display: flex;
-  align-items: center;
+  align-items: flex; 
 }
 
 .navbar .imgBanner {
   margin-right: 10px;
   width: 200px;
   height: auto;
+  align-self: flex; 
 }
 
 .navbar ul {
@@ -68,19 +69,19 @@ body{
   clear: both;
 }
 
-.navbar:not(:last-child) {
+.navbar li:not(:last-child) {
   border-right: 1px solid #bed5e7;
 }
 
-.navbar:first-child a {
+.navbar li:first-child a {
   background-color: rgb(119, 119, 236);
   color: rgb(255, 255, 255);
 }
 
-.navbar:nth-child(2) a,
-.navbar:nth-child(3) a,
-.navbar:nth-child(4) a,
-.navbar:nth-child(5) a {
+.navbar li:nth-child(2) a,
+.navbar li:nth-child(3) a,
+.navbar li:nth-child(4) a,
+.navbar li:nth-child(5) a {
   color: rgb(112, 112, 230);
 }
 
