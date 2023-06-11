@@ -13,7 +13,76 @@ body{
 }
 
 /*Navbar*/
+.navbar {
+  background-color: #b8dce2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
 
+.navbar .imgBanner {
+  margin-right: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar li:first-child {
+  margin-left: 0;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+}
+
+.navbar li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar:not(:last-child) {
+  border-right: 1px solid #bed5e7;
+}
+
+.navbar:first-child a {
+  background-color: rgb(119, 119, 236);
+  color: rgb(255, 255, 255);
+}
+
+.navbar:nth-child(2) a,
+.navbar:nth-child(3) a,
+.navbar:nth-child(4) a,
+.navbar:nth-child(5) a {
+  color: rgb(112, 112, 230);
+}
 
 
 /*Cabecera*/
